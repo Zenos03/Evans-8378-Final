@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &267944789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4143011887388133791, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
+  m_PrefabInstance: {fileID: 3096763126328409532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &479067614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7468211324330565786, guid: a4722a44047a19345bf36c802828e755, type: 3}
@@ -725,6 +730,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630018012}
   m_CullTransparentMesh: 1
+--- !u!1 &1687111501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6843357847466924655, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
+  m_PrefabInstance: {fileID: 1893622600984717980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1687111507
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687111501}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1710042311
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,10 +954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patrol Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 947220088082898547, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6843357847466924655, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1687111507}
   m_SourcePrefab: {fileID: 100100000, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
 --- !u!1001 &3096763126328409532
 PrefabInstance:
@@ -916,6 +975,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 5535676735226736157, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"coin","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535676735226736157, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535676735226736157, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 267944789}
     - target: {fileID: 7090260785162889490, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1045,8 +1117,7 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 519420028}
-    m_RemovedComponents:
-    - {fileID: 3892579566975818487, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1173,7 +1244,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -9151068108654597571, guid: a4722a44047a19345bf36c802828e755, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
