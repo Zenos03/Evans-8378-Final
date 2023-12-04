@@ -6,6 +6,7 @@ TagManager:
   tags:
   - player
   - spike
+  - coin
   layers:
   - Default
   - TransparentFX
