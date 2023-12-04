@@ -103,7 +103,7 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 0}
+    - {fileID: 1700076186184853011, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
 --- !u!114 &6063681746918764230
 MonoBehaviour:
   m_ObjectHideFlags: 0
