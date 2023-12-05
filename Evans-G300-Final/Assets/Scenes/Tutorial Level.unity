@@ -912,6 +912,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1095942613820157676, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095942613820157676, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.37
+      objectReference: {fileID: 0}
     - target: {fileID: 4228260385402588548, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.83
@@ -954,7 +962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4829860211524511443, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.17
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829860211524511443, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 6479734822757209208, guid: a7fef306666adc3459a42d4ebd1a585b, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -988,7 +1000,8 @@ PrefabInstance:
     - target: {fileID: 5535676735226736157, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"coin","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"sceneChange","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5535676735226736157, guid: cfa3064a1ed5c4f439e354a352d42228, type: 3}
       propertyPath: _data._objectReferences.Array.size
