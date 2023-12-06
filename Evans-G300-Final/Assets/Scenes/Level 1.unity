@@ -643,16 +643,23 @@ PrefabInstance:
     - target: {fileID: 5747961082669909131, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"count","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"start","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"end","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5747961082669909131, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5747961082669909131, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1399897485}
+    - target: {fileID: 5747961082669909131, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 2080438931}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1293,6 +1300,11 @@ Transform:
 --- !u!1 &2080438925 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1700076186184853011, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
+  m_PrefabInstance: {fileID: 726268441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2080438931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4993005861320287352, guid: bbf66221229f8e24bab7d2dc4f4a2ccb, type: 3}
   m_PrefabInstance: {fileID: 726268441}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
